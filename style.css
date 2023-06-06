@@ -1,0 +1,126 @@
+/* reset margin padding */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.banner .content-center span {
+    display: block;
+    font-size: 30px;
+}
+
+.banner {
+    /* border: 1px solid red;
+    height: 500px;
+    width: 600px; */
+    height: 600px;
+    background: url(./banner.jpg) center center no-repeat;
+    padding: 20px;
+}
+
+.about-sign-in {
+    height: 80px;
+    width: 100%;
+    text-align: right;
+    /* chuyển sang vế trái */
+}
+
+.about,
+.sign-in {
+    margin-top: 10px;
+    /*tạo không gian quanh ngoài phân từ */
+    padding: 7px 15px;
+    /*tạo không gian quanh trong phân từ */
+    text-decoration: none;
+    /* bỏ gạch chân */
+    display: inline-block;
+    /* hiển thị theo khối */
+}
+
+.sign-in {
+    margin-right: 60px;
+    margin-left: 10px 15px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: 1px solid green;
+}
+
+.logo {
+    margin-top: 40px;
+    height: 100px;
+    background: url(./hapoERP.png) center center no-repeat;
+}
+
+.test span {
+    text-align: center;
+    margin-top: 30px;
+    font-style: italic;
+    display: block;
+}
+
+.test {
+    text-align: center;
+}
+
+.btn-start-now {
+    text-align: center;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    cursor: pointer;
+    color: aliceblue;
+    font-family: Roboto;
+    background-color: green;
+    /* click vào hiển thị hình bàn tay */
+}
+
+.content-center {
+    text-align: center;
+    height: 75px;
+}
+
+.left,
+.center,
+.right {
+    height: 50px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+.bodys {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+.bodys .body1 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.bodys .body1 .today-i span {
+    font-size: 50px;
+}
+
+
+.bodys .body1 .text2 span {
+    text-align: left;
+    font-size: 13px;
+    display: block;
+    margin-left: 300px;
+    margin-right: 300px;
+}
